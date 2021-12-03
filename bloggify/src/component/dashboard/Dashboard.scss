@@ -1,0 +1,51 @@
+@import '../../color-code.scss';
+
+#dashboardMainSection {
+    display: flex;
+    flex-direction: column;
+    .container {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 16px;
+        background: $white-color;
+        width: inherit;
+        margin-bottom: 48px;
+        .blog-detail {
+            display: flex;
+            flex-direction: row;
+            img {
+                margin-right: 16px;
+                height: 170px;
+                width: webkit-fill-available;
+                width: moz-available;
+                width: fill-available;
+            }
+            .blog-text-detail {
+                display: flex;
+                flex-direction: column;
+                .blog-detail-text {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-size: 0.875em; /* 14px/16=0.875em */
+                    font-weight: normal;
+                    font-variant: normal;
+                    margin-bottom: 16px;
+                }
+                .blog-view-detail {
+                    display: flex;
+                    flex-direction: row;
+                    span {
+                        margin-right: 5px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-size: 12px; /* 14px/16=0.875em */
+                        font-weight: normal;
+                        font-variant: normal;
+                    }
+                }
+            }
+        }
+    }
+}
