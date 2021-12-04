@@ -5,6 +5,7 @@ class Dashboard extends React.Component {
 
     data = [
         {
+            id: 1,
             img: 'https://picsum.photos/200/300?random=2',
             question: 'What is SEO? An explanation for beginners',
             blogText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
@@ -14,6 +15,7 @@ class Dashboard extends React.Component {
             category: 'category'
         },
         {
+            id: 2,
             img: 'https://picsum.photos/200/300?random=2',
             question: 'What is SEO? An explanation for beginners',
             blogText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
@@ -23,6 +25,7 @@ class Dashboard extends React.Component {
             category: 'category'
         },
         {
+            id: 3,
             img: 'https://picsum.photos/200/300?random=2',
             question: 'What is SEO? An explanation for beginners',
             blogText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
@@ -32,6 +35,7 @@ class Dashboard extends React.Component {
             category: 'category'
         },
         {
+            id: 4,
             img: 'https://picsum.photos/200/300?random=2',
             question: 'What is SEO? An explanation for beginners',
             blogText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
@@ -41,6 +45,7 @@ class Dashboard extends React.Component {
             category: 'category'
         },
         {
+            id: 5,
             img: 'https://picsum.photos/200/300?random=2',
             question: 'What is SEO? An explanation for beginners',
             blogText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
@@ -64,7 +69,7 @@ class Dashboard extends React.Component {
                                 <div className="blog-detail">
                                     <img src={v.img} alt="blog"></img>
                                     <div className="blog-text-detail">
-                                        <h2>{v.question}</h2>
+                                        <h2><a href="detail-blog-view/v.id">{v.question}</a></h2>
                                         <span className="blog-detail-text"> {v.blogText} </span>
                                         <div className="blog-view-detail">
                                             <span> {v.date} </span>
