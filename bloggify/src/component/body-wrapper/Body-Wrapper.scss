@@ -1,0 +1,41 @@
+@import '../../helper.scss';
+// :host {
+    .main-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .route-side-wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            @media screen and (max-width: $xsEnd) {
+                width: 100%;
+            }
+            @media screen and (min-width: $smStart) and (max-width: $smEnd) {
+                width: 100%;
+            }
+            @media screen and (min-width: $mdStart) and (max-width: $mdEnd) {
+                width: 100%;
+                max-width: 1050px;
+            }
+            @media screen and (min-width: $lgStart) and (max-width: $lgEnd) {
+                width: 100%;
+                max-width: 1264px;
+            }
+            @media screen and (min-width: $xlStart) and (max-width: $xlEnd) {
+                width: 100%;
+                max-width: 1264px;
+            }
+            .router-wrapper {
+                width: 100%;
+                margin-right: 20px;
+            }
+            .side-search {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+    }
+// }
