@@ -69,7 +69,7 @@ class Dashboard extends React.Component {
                                 <div className="blog-detail">
                                     <img src={v.img} alt="blog"></img>
                                     <div className="blog-text-detail">
-                                        <h2><a href="detail-blog-view/v.id">{v.question}</a></h2>
+                                        <h2><a href={`detail-blog-view/${v.id}`}>{v.question}</a></h2>
                                         <span className="blog-detail-text"> {v.blogText} </span>
                                         <div className="blog-view-detail">
                                             <span> {v.date} </span>
