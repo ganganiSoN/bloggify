@@ -1,5 +1,12 @@
 @import '../../color-code.scss';
 
 #detailBlogView {
-    
+    .heading-section {
+        label {
+            color: $primary-color;
+        }
+    }
+    .body-section {
+        margin-top: 24px;
+    }
 }
