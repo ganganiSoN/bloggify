@@ -7,19 +7,20 @@ class DetailBlogView extends React.Component {
             <React.Fragment>
                 <section id="detailBlogView">
 
+                    {/* blog heading section */}
                     <section className="heading-section">
                         
                         <h1>What is SEO?</h1>
 
                         <div>
 
-                            <label>3 May 2019 </label>
+                            <label className="font-weight-500">3 May 2019 </label>
                              |
-                            <label> 9 comments </label>
+                            <label className="font-weight-500"> 9 comments </label>
                             |
-                            <label> 999 views </label>
+                            <label className="font-weight-500"> 999 views </label>
                             |
-                            <label> Category </label>
+                            <label className="font-weight-500"> Category </label>
 
                         </div>
 
